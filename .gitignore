@@ -1,0 +1,17 @@
+# Django 相关
+__pycache__/        # 编译缓存
+*.py[cod]           # 编译生成的文件
+*$py.class          # Python 字节码
+local_settings.py   # 本地配置（若有）
+db.sqlite3          # 本地数据库
+db.sqlite3-journal  # 数据库日志
+media/              # 用户上传的媒体文件
+static/admin/       # Django Admin 的静态文件
+
+# 虚拟环境（根据实际名称调整）
+venv/
+env/
+
+# 其他系统文件
+.DS_Store           # Mac 系统文件
+*.log               # 日志文件
